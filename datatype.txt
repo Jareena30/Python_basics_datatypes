@@ -1,0 +1,64 @@
+a=20
+print(type(a)) #prints data type as int
+print(id(a)) #prints memory location
+
+s="sdslf" # for string can use double quote
+print(type(s))
+print(id(s))
+
+s='sdslf' # for string can use single quote
+print(type(s))
+print(id(s))
+
+s= " " "sdslf" " "   # for string can use double quote
+print(type(s))
+print(id(s))
+
+s= ' ' ' sdslf ' ' '   # for string can use single quote
+print(type(s))
+print(id(s))
+
+x=7.5  #prints data type as float
+print(type(x)) 
+print(id(x)) 
+
+x='d' #prints data type as string
+print(type(x)) 
+print(id(x)) 
+
+x=True  #prints data type as boolean
+print(type(x)) 
+print(id(x)) 
+
+x=None  #prints data type as None
+print(type(x)) 
+print(id(x)) 
+
+x= 2+3j       #prints data type as complex
+print(type(x)) 
+print(id(x)) 
+
+
+Output:
+
+<class 'int'>
+140174233743720
+<class 'str'>
+140174222510448
+<class 'str'>
+140174222510448
+<class 'str'>
+140174222654768
+<class 'str'>
+140174222645872
+<class 'float'>
+140174222597840
+<class 'str'>
+140174233459072
+<class 'bool'>
+140174233742208
+<class 'NoneType'>
+140174233709728
+<class 'complex'>
+140174222600496
+> 

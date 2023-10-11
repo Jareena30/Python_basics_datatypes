@@ -1,0 +1,8 @@
+val = [] # List
+val = ()  # Tuple
+val = {}   # Set
+val = {}    # Dictionery---Key & value pair
+print(type(val))    # Dict---default data type for empty set or dictionary
+
+Output :
+<class 'dict'>

@@ -1,0 +1,17 @@
+# create a dictionary from the given sequence of keys and values.
+# keys for the dictionary
+alphabets = {'a', 'b', 'c'}
+# value for the dictionary
+number = 1
+# creates a dictionary with keys and values
+dictionary = dict.fromkeys(alphabets, number)
+print(dictionary)
+
+#print None if keys are not provided
+data = {'a', 'b', 'c'}
+dictionary = dict.fromkeys(data)
+print(dictionary)
+
+Output:
+{'b': 1, 'a': 1, 'c': 1}
+{'b': None, 'a': None, 'c': None}

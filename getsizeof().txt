@@ -1,0 +1,8 @@
+>>> val = [1,2,3,4,5]
+>>> import sys
+>>> sys.getsizeof(val)
+104
+>>> val = [1,2,3,4,5,6,7,8]
+>>> import sys
+>>> sys.getsizeof(val)
+120

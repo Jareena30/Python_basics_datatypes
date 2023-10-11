@@ -1,0 +1,43 @@
+student_data={1:"Rohan", 2:"Sara", 3:"Ram", 4:"Soham"}
+print(student_data)
+# acces a value with the help of key
+print(student_data[2]) #Sara
+#find length of dict
+print(len(student_data)) #4
+#change valu-mutable feature
+student_data[2]="Amir" # replace with Sara
+print(student_data) 
+#add new element
+student_data[5]="Allah"
+print(student_data)
+#delete element
+del(student_data[3])  
+print(student_data)    # "Ram" removed
+#remove all elements use clear()
+student_data.clear()
+print(student_data)  #{}
+#remove the item with specified key pop()
+student_data={1:"Rohan", 2:"Sara", 3:"Ram", 4:"Soham"}
+ele = student_data .pop (2)
+print("popped element is:", ele) #Sara
+print(student_data)
+#pop a element not present, will give an error
+ele = student_data .pop (6)
+print("popped element is:", ele) #KeyError
+print(student_data)
+
+Output:
+{1: 'Rohan', 2: 'Sara', 3: 'Ram', 4: 'Soham'}
+Sara
+4
+{1: 'Rohan', 2: 'Amir', 3: 'Ram', 4: 'Soham'}
+{1: 'Rohan', 2: 'Amir', 3: 'Ram', 4: 'Soham', 5: 'Allah'}
+{1: 'Rohan', 2: 'Amir', 4: 'Soham', 5: 'Allah'}
+{}
+popped element is: Sara
+ERROR!
+{1: 'Rohan', 3: 'Ram', 4: 'Soham'}
+Traceback (most recent call last):
+  File "<string>", line 25, in <module>
+KeyError: 6
+> 

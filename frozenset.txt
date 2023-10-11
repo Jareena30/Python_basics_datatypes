@@ -1,0 +1,6 @@
+val = (1 ,2, 3,4) # tuple
+x=frozenset(val) # converts into frozenset, immutable version of python set object, unordered, unindexed, unique
+print(type(x))
+
+Output
+<class 'frozenset'>

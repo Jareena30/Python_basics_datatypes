@@ -1,0 +1,104 @@
+#String methods
+
+txt = "hello, and welcome to my world."
+x = txt.capitalize() # first letter Capital
+print (x) #Hello, and welcome to my world.
+
+x = txt.upper() # all letters capital
+print (x)   #HELLO, AND WELCOME TO MY WORLD.
+
+x = txt.title() # first letter of each word Capital
+print (x) #Hello, And Welcome To My World.
+
+x = txt.startswith("hello") # check whether starts with given string, returns True or False
+print (x) #True
+
+x = txt.startswith("hi") 
+print (x)  #False
+
+x = txt.endswith("hi") #check whether ends with given string, returns True or False
+print (x)  #False
+
+x = txt.endswith("ld.") 
+print (x)  #True
+
+x = txt.index("w") #returns index
+print (x)  #11
+
+x = txt.index("o") #returns index
+print (x)  #4
+
+x = txt.find("he") # finds index of first occurance of string
+print (x)  #0
+
+x = txt.index("w") #returns first occurance index
+print (x)  #11
+
+x = txt.lower() #returns all in lowercase
+print (x)  #hello, and welcome to my world.
+
+x = txt.rfind("o") #returns index of last occurance of string
+print (x)  #26
+
+x = txt.count("a") #returns count of occurance
+print (x)  #4
+
+x = txt.count("o") 
+print (x)  #1
+
+x = txt.rindex("o") #returns last occurance index
+print (x)  #26
+
+txt="welcome TO my Home"
+x = txt.swapcase() #returns uppercase into lowercase and viceversa
+print (x)  #WELCOME to MY hOME
+
+x = txt.replace("my", "Our") #replace the string with another string
+print (x)  # welcome TO Our Home
+
+x = txt.isupper() #returns True if all letters are in upper case
+print (x)  # False
+
+x = txt.istitle() #returns True if title case
+print (x)  # False
+
+x = txt.islower() #returns True if all letters are in upper case
+print (x)  # False
+
+x = txt.isdigit() #returns True if all letters are digit
+print (x)  # False
+
+x = txt.isalpha() #Returns True if all characters in the string are in the alphabet
+print (x)  # False
+
+x = txt.isalnum() #RReturns True if all characters in the string are alphanumeric
+print (x)  # False
+
+
+
+Output:
+Hello, and welcome to my world.
+HELLO, AND WELCOME TO MY WORLD.
+Hello, And Welcome To My World.
+True
+False
+False
+True
+11
+4
+0
+11
+hello, and welcome to my world.
+26
+1
+4
+26
+WELCOME to MY hOME
+welcome TO Our Home
+False
+False
+False
+False
+False
+False
+> 

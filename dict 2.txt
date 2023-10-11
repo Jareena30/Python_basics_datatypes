@@ -1,0 +1,14 @@
+# get keys and values keys(), values()
+data={"Dhoni": 30, "Raina": 25, "Dravid": 34}
+print(data.keys())
+print(data.values())
+# items()
+print(data.items())
+# get value get()
+print(data.get("Raina"))
+
+Output :
+dict_keys(['Dhoni', 'Raina', 'Dravid'])
+dict_values([30, 25, 34])
+dict_items([('Dhoni', 30), ('Raina', 25), ('Dravid', 34)])
+25

@@ -1,0 +1,45 @@
+# Array Indexing-- +ve and -ve indexing
+a="Welcome to Python Programming"
+print(a[5])  # returns single letter 'm'
+print(a[-2])   # -ve indexing starts fron -1, returns 'n'
+print(a[-9])  #o
+print(a[:])  #Slicing- gives substring a[start:end]
+print(a[0:7])  # Welcome...start is inclusive and end is exclusive in slicing
+print(a[11:17]) #Python
+print(a[-19:-12]) #Python
+print(a[-22:-12]) # to Python
+print(a[18:]) #Programming
+print(a[:-12]) # Welcome to Python 
+print(a[:])  #Welcome to Python Programming
+print(a[::]) #Steping-if we want to read a str in reverse direction#/backward/right to left----a[start:end:step]
+print(a[8:17:1]) # to Python
+print(a[8:17:2]) # t yh
+print(a[::2]) # Wloet yhnPormig
+print(a[::-1]) #gnimmargorP nohtyP ot emocleW
+print(a[1::-1])   #eW
+print(a[1:8:1]) #elcome
+print(a[8:1:-1]) #t emocl
+
+
+
+Output:
+m
+n
+o
+Welcome to Python Programming
+Welcome
+Python
+ Python
+ to Python
+Programming
+Welcome to Python
+Welcome to Python Programming
+Welcome to Python Programming
+to Python
+t yhn
+Wloet yhnPormig
+gnimmargorP nohtyP ot emocleW
+eW
+elcome 
+t emocl
+> 

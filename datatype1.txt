@@ -1,0 +1,50 @@
+languages = ["Swift", "Java", "Python"]   # List data type, mutable, ordered, indexed, heterogeneous, duplicate, array
+print(languages)
+# access element at index 0
+print(languages[0])   # Swift
+# access element at index 2
+print(languages[2])   # Python
+print(type(languages))
+print(id(languages))
+
+languages = {"Swift", "Java", "Python"}   # Set data type  , subscript access is not allowed, unique, mutable, hashtable
+print(languages)
+print(type(languages))
+print(id(languages))
+
+languages = ("Swift", "Java", "Python") # Tuple data type, immutable, duplicate, array
+print(languages)
+print(languages[0])   # Swift
+print(languages[2])   # Python
+print(type(languages))
+print(id(languages))
+
+languages = {1:"Swift", 2:"Java", 3:"Python"}      # Dictionery data type, key is unique+immutable, valuue is duplicate+mutable, hashtable
+print(languages)
+print(languages[2])   # Python
+print(type(languages))
+print(id(languages))
+print(languages[1])  # Swift
+print(languages[3])
+
+Output:
+['Swift', 'Java', 'Python']
+Swift
+Python
+<class 'list'>
+139973932520448
+{'Swift', 'Python', 'Java'}
+<class 'set'>
+139973933733632
+('Swift', 'Java', 'Python')
+Swift
+Python
+<class 'tuple'>
+139973934016896
+{1: 'Swift', 2: 'Java', 3: 'Python'}
+Java
+<class 'dict'>
+139973936200896
+Swift
+Python
+> 
